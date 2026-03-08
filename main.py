@@ -48,7 +48,7 @@ def predict(model, image_path, img_size=(64,64)):
     
 #main
 if __name__ == "__main__":
-    data_path = r"C:\Users\Mahmoud Hany\OneDrive\Desktop\Task MRI\brain_tumor_dataset"
+    data_path = r"data_path = brain_tumor_dataset"
     X, y = L_PP_Data(data_path, img_size=(64, 64))
     if len(X) == 0:
         print("check path or data")
